@@ -55,7 +55,7 @@ console.log(!false);
 //let ages = [9, 18, 35, 15]
 //Loops through all elemnt (ages) and
 // print if this person can drink alcohol
-
+//
 let ages = [9, 18, 35, 15];
 let time = 21;
 //If time > 22 - age doesn't matter, no alco
