@@ -310,3 +310,60 @@ const arrowCalculateArea = (radius) =>
 }
 
 console.log(`Area is: ${arrowCalculateArea(10)}`);
+
+/*const bill = function(product, tax)
+{
+    let total = 0;
+    for (let i = 0;i < product.length;i++)
+    {
+        total += product[i] + product[i] * tax;
+    }
+    return total;
+}*/
+//console.log(`Your bill is: ${bill(50)}`);
+
+/*const bill = (product,tax) =>
+{
+    let total = 0;
+    for (let i = 0;i < product.length;i++)
+    {
+        total += product[i] + product[i] * tax;
+    }
+    return total;
+}*/
+
+/*let people = ['Max', 'Deniss', 'Alex', 'Ivan'];
+
+for (let i = 0; i < people.length;i++)
+{
+    console.log(people[i]);
+}
+
+people.forEach(person => 
+    {
+        console.log(person);
+    });
+*/
+///Task
+
+let mas = [89, 46, 0, 35];
+
+function insertSort(mas) 
+{
+    let n = mas.length;
+        for (let i = 1; i < n; i++) 
+        {
+            let currentposition = mas[i];
+            let j = i-1; 
+            while ((j > -1) && (currentposition < mas[j])) 
+            {
+                mas[j+1] = mas[j];
+                j--;
+            }
+            mas[j+1] = currentposition;
+        }
+    return mas;
+}
+
+insertSort(mas);
+console.log(mas);
