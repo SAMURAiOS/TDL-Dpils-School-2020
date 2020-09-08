@@ -249,7 +249,7 @@ for(let i = 0; i < ages.length;i++)
 ///////////////Homework
 
 let numbers = [2, 40 , 8];
-
+//test
 for (let i = 0; i <= numbers.length; i++) 
 {
    if ((numbers.length + 1) % 2) 
