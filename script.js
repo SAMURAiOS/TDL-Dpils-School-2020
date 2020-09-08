@@ -205,7 +205,7 @@ if (workers.length > 3)
     console.log('That is a big company');
 }
 //else if*/
-
+/*
 const password = 'pssw0rd133';
 
 if (password.length > 12 && password.includes('@'))
@@ -265,4 +265,48 @@ for (let i = 0; i <= numbers.length; i++)
    {
        console.log('Error')
    }
+}*/
+
+/////////////Functions
+
+//function declarations
+
+function greet()
+{
+    console.log('hello there');
 }
+
+/*greet();
+greet();
+greet();
+*/
+//function expression
+
+const speak = function(name = 'Maris', surname = 'Petrov')
+{
+    console.log(`Hello ${name} ${surname}`);
+};
+
+speak('Deniss');
+speak('Aleksandrs');
+speak('Ina');
+
+speak();
+
+const calculateArea = function(radius)
+{
+    let area = 3.14 * radius**2;
+    return area;
+}
+
+const myCircle = calculateArea(5);
+console.log(myCircle);
+
+//arrow functions
+
+const arrowCalculateArea = (radius) => 
+{
+    return 3.14 * radius**2;
+}
+
+console.log(`Area is: ${arrowCalculateArea(10)}`);
