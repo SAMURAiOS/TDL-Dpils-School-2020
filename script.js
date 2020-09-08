@@ -271,7 +271,7 @@ for (let i = 0; i <= numbers.length; i++)
 
 //function declarations
 
-function greet()
+/*function greet()
 {
     console.log('hello there');
 }
@@ -282,7 +282,7 @@ greet();
 */
 //function expression
 
-const speak = function(name = 'Maris', surname = 'Petrov')
+/*const speak = function(name = 'Maris', surname = 'Petrov')
 {
     console.log(`Hello ${name} ${surname}`);
 };
@@ -346,7 +346,7 @@ people.forEach(person =>
 */
 ///Task
 
-let mas = [89, 46, -4, 46, 35];
+/*let mas = [89, 46, -4, 46, 35];
 
 function insertSort(mas) 
 {
@@ -367,4 +367,148 @@ function insertSort(mas)
 }
 
 insertSort(mas);
-console.log(`Sorted array: ${mas}`);
+console.log(`Sorted array: ${mas}`);*/
+
+////////////Objects
+
+/*let user =  
+{
+    name: 'Aleksandrs',
+    age: 23,
+    email: 'test@tesdevlab.com',
+    location: 'Latvia',
+    blogs: ['Why 2020 is the best year','Why burgers are good?'],
+    // login: function()
+    // {
+    //     console.log('The user logged in');
+    // },
+    login()
+    {
+        console.log('The user logged in');
+    },
+    // logout: function()
+    // {
+    //     console.log('The user logged out');
+    // },
+    logout()
+    {
+        console.log('The user logged out');
+    },
+    logBlogs() 
+    {
+        this.blogs.forEach(x => 
+            {
+                console.log(x);
+            });
+    }
+};
+console.log(user.logBlogs());*/
+/*user.name = 'Alex';
+console.log(user.logBlogs());
+
+const key = 'age';
+console.log(user[key]);
+*/
+
+
+/*let car =
+{
+    label: 'Audi',
+    fuel: 'Gas',
+    control: 'automatic',
+    doorop: function()
+    {
+        console.log('You successfully opened a door');
+    },
+    doorcl: function()
+    {
+        console.log('You successfully closed the door');
+    }
+};
+console.log(car.label);
+console.log(car.doorop());*/
+
+//////////////Math objects
+/*
+console.log(Math);
+console.log(Math.PI);
+
+const number = 7.8;
+
+console.log(Math.round(number));
+console.log(Math.floor(number));
+console.log(Math.ceil(number));
+console.log(Math.trunc(number));
+
+///random
+const random = Math.random();
+console.log(random);
+console.log(Math.round(random * 100));
+
+let array = 
+[
+    {
+        name: 'Alex',
+        age: 23
+    },
+    {
+        name: 'Max',
+        age: 24
+    }
+]
+console.log(array[0].name);
+
+let letters =
+[
+    {title: 'A', score: 1},
+    {title: 'K', score: 9},
+    {title: 'B', score: 6},
+    {title: 'C', score: 14},
+    {title: 'D', score: 2},
+    {title: 'E', score: 8},
+    {title: 'F', score: 5},
+]
+
+scrabble = function(letters)
+{
+    let sum = 0;
+    letters.forEach(element => 
+    {
+        sum += element.score;
+    });
+    return sum;
+}
+console.log(scrabble(letters));*/
+
+//primitive type vs reference type
+//primitive type
+
+/*let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+scoreOne = 100;
+console.log(`ScoreOne: ${scoreOne},  scoreTwo: ${scoreTwo}`);
+
+//reference type
+
+let userOne = {name: 'Alex', age: 23}
+let userTwo = userOne;
+
+console.log(userOne,userTwo);
+userTwo.age = 40;
+
+console.log(userOne,userTwo);*/
+
+//Function
+
+let object = {a: 1, b: 1};
+let objArray = [];
+toArray = function(object)
+{
+    for (let i = 0; i < objArray.length; i++) 
+    {
+        const object = array[i];
+    }
+    return objArray;
+}
+console.log(objArray);
