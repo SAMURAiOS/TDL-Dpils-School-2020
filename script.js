@@ -512,3 +512,11 @@ toArray = function(object)
     return objArray;
 }
 console.log(objArray);
+
+//Function toArray
+//Accepts object
+//returns Array
+//object - {a: 1, b: 2}
+//returns - [["a", 1], ["b", 2]]
+//add code to file toArray.js 
+//and push to Github
