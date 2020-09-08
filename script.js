@@ -346,7 +346,7 @@ people.forEach(person =>
 */
 ///Task
 
-let mas = [89, 46, 0, 35];
+let mas = [89, 46, -4, 46, 35];
 
 function insertSort(mas) 
 {
@@ -361,9 +361,10 @@ function insertSort(mas)
                 j--;
             }
             mas[j+1] = currentposition;
+            console.log(mas);
         }
     return mas;
 }
 
 insertSort(mas);
-console.log(mas);
+console.log(`Sorted array: ${mas}`);
