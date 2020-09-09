@@ -501,7 +501,7 @@ console.log(userOne,userTwo);*/
 
 //Function
 
-let object = {a: 1, b: 1};
+/*let object = {a: 1, b: 1};
 let objArray = [];
 toArray = function(object)
 {
@@ -511,7 +511,7 @@ toArray = function(object)
     }
     return objArray;
 }
-console.log(objArray);
+console.log(objArray);*/
 
 //Function toArray
 //Accepts object
@@ -520,3 +520,4 @@ console.log(objArray);
 //returns - [["a", 1], ["b", 2]]
 //add code to file toArray.js 
 //and push to Github
+
